@@ -1,0 +1,48 @@
+h2, h3, h4, h5 {
+  color: teal;
+  font-family;
+}
+#scoreBoard,th, tr, td {
+  border: 2px solid darkgray;
+  text-align: center;
+}
+th {
+  color: green;
+  font-weight: bold;
+}
+ul {
+  list-style: square;
+}
+.hyperLink:hover {
+  background-color: red;
+  text-decoration: none;
+}
+.hyperLink:link {
+  color: blue;
+}
+blockquote {
+  background-color: black;
+  color: aqua;
+}
+#teamRoster > li > img {
+  position: absolute;
+  padding-top: 50px;
+  width: 100px;
+  height: 50px;
+  left: 100px;
+  opacity: .3;
+}
+#checkbox-grid > li {
+  list-style: none;
+}
+tbody > tr:first-child {
+  background-color: orange;
+  opacity: .75;
+}
+tbody > tr:last-child {
+  background-color: lightblue;
+  opacity: .75;
+}
+#teamRoster > li > ul > li > ol > li:first-child {
+  font-weight: bold;
+}
